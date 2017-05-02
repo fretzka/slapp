@@ -13,8 +13,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Start',
-      icon: 'fa fa-home',
+      name: 'START',
+      icon: 'fa fa-home fa-2x',
       components: {
         default: Start,
         tidy: StartTidy
@@ -22,8 +22,8 @@ export default new Router({
     },
     {
       path: 'Assa',
-      name: 'Assa',
-      icon: 'fa fa-key',
+      name: 'ASSA',
+      icon: 'fa fa-amazon fa-2x',
       components: {
         default: Assa,
         tidy: AssaTidy
@@ -31,11 +31,29 @@ export default new Router({
     },
     {
       path: 'Prodib',
-      name: 'Prodib',
-      icon: 'fa fa-lock',
+      name: 'PRODIB',
+      icon: 'fa fa-product-hunt fa-2x',
       components: {
         default: Prodib,
         tidy: ProdibTidy
+      }
+    },
+    {
+      path: 'D12',
+      name: 'D12',
+      icon: 'fa fa-calculator fa-2x',
+      components: {
+        default: Assa,
+        tidy: AssaTidy
+      }
+    },
+    {
+      path: 'SMS',
+      name: 'SMS',
+      icon: 'fa fa-commenting-o fa-2x',
+      components: {
+        default: Assa,
+        tidy: Assa
       }
     }
   ]
